@@ -1,0 +1,37 @@
+body {
+  background-color: #222;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.column {
+  height: 250px;
+  text-align: center;
+}
+
+.card-content {
+  border: 2px solid #fff;
+  height: 300px;
+  margin: 2rem;
+  text-align: center;
+  background-color: beige;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button {
+  margin: 0 5px;
+}
